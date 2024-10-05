@@ -1,8 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 #nav{margin:0 auto;
-	width: 900px; height: 100px;
-	background-color: antiquewhite}
-	
-	
+	width: 900px; height: 900px;
+	background-color: antiquewhite}	
+.left{background-color: rgba(179,120,43,1.00); width: 900px; height: 800px}
 
+#question{color:rgba(225,32,36,1.00)}
+.fristName{color: rgba(210,77,79,1.00)}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ li {
+  float: left;
+}
+#fristName{color:rgba(226,64,67,1.00)}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover:not(.active) {
+  background-color: rgba(149,100,47,1.00);
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.fristName {
+}
